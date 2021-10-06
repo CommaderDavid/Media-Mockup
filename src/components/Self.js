@@ -7,7 +7,6 @@ function Self() {
                 <img />
                 <h3>Demar Kanar</h3>
                 <p><link>TWEETS</link> <link>FOLLOWING</link> <link>FOLLOWERS</link></p>
-                <hr />
             </div>
         </React.Fragment>
     );
