@@ -9,12 +9,16 @@ import TopBar from "./TopBar";
 function App() {
   return (
     <React.Fragment>
-      <TopBar />
-      <HeaderMain />
-      <PostList />
-      <FriendList />
-      <Self />
-      <SelfPost />
+      <div class="container">
+        <TopBar />
+        <div id="feed">
+          <HeaderMain />
+          <PostList />
+          <FriendList />
+          <Self />
+          <SelfPost />
+        </div>
+      </div>
     </React.Fragment>
   );
 }
