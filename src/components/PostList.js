@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderMain from "./HeaderMain";
 import Post from "./Post";
 
 const masterPostList = [
@@ -28,12 +29,14 @@ const masterPostList = [
 function PostList() {
     return (
         <React.Fragment>
-            <hr />
-            {masterPostList.map((post, index) =>
-                <Post names={post.names}
-                    subject={post.subject}
-                    key={index} />
-            )}
+            <div className="center">
+                <HeaderMain />
+                {masterPostList.map((post, index) =>
+                    <Post names={post.names}
+                        subject={post.subject}
+                        key={index} />
+                )}
+            </div>
         </React.Fragment>
     );
 }

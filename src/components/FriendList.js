@@ -16,11 +16,12 @@ const masterFriendList = [
 function FriendList() {
     return (
         <React.Fragment>
-            <hr />
-            {masterFriendList.map((friend, index) =>
-                <Friend userNames={friend.userNames}
-                    key={index} />
-            )}
+            <div className="Right">
+                {masterFriendList.map((friend, index) =>
+                    <Friend userNames={friend.userNames}
+                        key={index} />
+                )}
+            </div>
         </React.Fragment>
     );
 }

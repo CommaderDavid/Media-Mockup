@@ -3,8 +3,8 @@ import React from "react";
 function TopBar() {
     return (
         <React.Fragment>
-            <div class="jumbotron">
-                <div class="top">
+            <div className="jumbotron">
+                <div className="top">
                     <div id="topLeft">
                         <button>Home</button>
                         <button>Notifications</button>

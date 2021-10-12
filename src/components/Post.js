@@ -4,10 +4,9 @@ import PropTypes from "prop-types";
 function Post(props) {
     return (
         <React.Fragment>
-            <div class="center">
+            <div className="center">
                 <h3>{props.names}</h3>
                 <p>{props.subject}</p>
-                <hr />
             </div>
         </React.Fragment>
     );

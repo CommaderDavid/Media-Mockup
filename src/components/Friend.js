@@ -1,14 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import idStand from "./../img/idStandIn.png";
 
 function Friend(props) {
     return (
         <React.Fragment>
-            <div class="Left">
-                <img />
+            <div className="Right">
+                <img src={idStand} alt="An stand in image" />
                 <h3>{props.userNames}</h3>
                 <button>Button</button>
-                <hr />
             </div>
         </React.Fragment>
     );
